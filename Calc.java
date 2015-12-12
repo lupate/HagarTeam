@@ -9,10 +9,8 @@ public class Calc{
 	}
 	
 	public int sub (int x, int y){
-		if( x < y)
-			return x - y;
-		else
-			return 0;
+		int res =  (x < y) ? x - y : 0;
+		return res;
 	}
 	
 	public static void main (String... argv){
