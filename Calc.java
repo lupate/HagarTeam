@@ -23,6 +23,6 @@ public class Calc{
 		if(result > 0)
 			System.out.println(result);
 		else
-			System.out.println("Your subtraction (first - Second) >> first must be greater than Second");
+			System.out.println("Invalid subtraction attributes");
 	}
 }
